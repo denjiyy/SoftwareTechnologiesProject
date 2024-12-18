@@ -1,0 +1,130 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="cart-table-area section-padding-100">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                <div class="checkout_details_area mt-50 clearfix">
+
+                    <div class="cart-title">
+                        <h2>Checkout</h2>
+                    </div>
+
+                    <form method="post">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <input type="text"
+                                       class="form-control"
+                                       id="username"
+                                       asp-for="Input.Username"
+                                       placeholder="Username">
+                                <span asp-validation-for="Input.Username" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <input type="text"
+                                       class="form-control"
+                                       id="firstname"
+                                       asp-for="Input.FirstName"
+                                       placeholder="Firstname">
+                                <span asp-validation-for="Input.FirstName" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <input type="text"
+                                       class="form-control"
+                                       id="lastname"
+                                       asp-for="Input.LastName"
+                                       placeholder="Lastname">
+                                <span asp-validation-for="Input.LastName"class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <input type="password"
+                                       class="form-control"
+                                       id="password"
+                                       asp-for="Input.Password"
+                                       placeholder="Password">
+                                <span asp-validation-for="Input.Password"class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <input type="password"
+                                       class="form-control"
+                                       id="confirm_password"
+                                       asp-for="Input.ConfirmPassword"
+                                       placeholder="Confirm Password">
+                                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <input type="email"
+                                       class="form-control"
+                                       id="email"
+                                       asp-for="Input.Email"
+                                       placeholder="Email">
+                                <span asp-validation-for="Input.Email"class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <input type="date"
+                                       class="form-control"
+                                       id="username"
+                                       asp-for="Input.BirthDate"
+                                       placeholder="Date of Birth">
+                                <span asp-validation-for="Input.BirthDate" class="text-danger"></span>
+                            </div>
+                            <div class="cart-btn mt-100">
+                                <button class="btn amado-btn w-100">Register</button>
+                                <fb:login-button scope="public_profile,email"
+                                                 onlogin="checkLoginState();">
+                                </fb:login-button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+    //Asynchronously load the SDK on this page
+
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId: '585452715702380',
+      cookie     : true,
+      xfbml      : true,
+        version: 'v10.0'
+    });
+
+    FB.AppEvents.logPageView();
+
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+
+    //Check if there is an user who is already logged in
+    function checkLoginState() {
+        FB.getLoginStatus(function (response) {
+            $("#authstatus").html("<code>" + JSON.stringify(response, null, 2)  + "</code>");
+        })
+    };
+    </script>
+}

@@ -1,0 +1,55 @@
+﻿@page
+@model LoginModel
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<div class="cart-table-area section-padding-100">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                <div class="checkout_details_area mt-50 clearfix">
+
+                    <div class="cart-title">
+                        <h2>Login</h2>
+                    </div>
+                    <div id="authstatus"></div>
+                    <form method="post">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <input type="text"
+                                       class="form-control"
+                                       id="username"
+                                       asp-for="Input.Username"
+                                       placeholder="Username">
+                                <span asp-validation-for="Input.Username" class="text-danger"></span>
+                            </div><br>
+                            <div class="col-md-6 mb-3">
+                                <input type="password"
+                                       class="form-control"
+                                       id="password"
+                                       asp-for="Input.Password"
+                                       placeholder="Password">
+                                <span asp-validation-for="Input.Password" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="custom-control custom-checkbox d-block mb-2">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                    <label class="custom-control-label" for="customCheck2">Create an accout</label>
+                                </div>
+                            </div>
+                            <div class="cart-btn mt-100">
+                                <button class="btn amado-btn w-100">Login</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
