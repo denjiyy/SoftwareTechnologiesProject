@@ -83,47 +83,6 @@
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
         }
 
-        // public async Task<IActionResult> LoginWithFacebookAsync(string accessToken)
-        // {
-        //     var validatedTokenResult = await facebookAuthService.ValidateAccessTokenAsync(accessToken);
-        //
-        //     if (validatedTokenResult.Data.IsValid)
-        //     {
-        //         /*return new AuthenticationResult
-        //         {
-        //             Errors = new[] { "Invalid Facebook token" }
-        //         };*/
-        //     }
-        //     var userInfo = await facebookAuthService.GetUserInfoAsync(accessToken);
-        //     var userFromFacebook = await _userManager.FindByEmailAsync(userInfo.Email);
-        //
-        //     if (userFromFacebook == null)
-        //     {
-        //         var user = new MusicalShopUser
-        //         {
-        //             Email = userFromFacebook.Email,
-        //             UserName = userFromFacebook.UserName,
-        //
-        //         };
-        //
-        //         var createdResult = await _userManager.CreateAsync(user);
-        //         await _userManager.AddToRoleAsync(user, "User");
-        //
-        //         if (!createdResult.Succeeded)
-        //         {
-        //
-        //             //Make it right
-        //             /*return new AuthenticationResult
-        //             {
-        //             Errors = new[] { "Something went wrong" }
-        //             };*/
-        //         }
-        //         
-        //         await _signInManager.SignInAsync(user, isPersistent: false);
-        //     }
-        //     this.Redirect("/Identity/Account/Register");
-        // }
-
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
             returnUrl = "/";
@@ -154,11 +113,9 @@
 
                 if (result.Succeeded)
                 {
-                    // Ensure the "User" role exists before assigning it
                     await EnsureRoleExists("User");
                     await _userManager.AddToRoleAsync(user, "User");
 
-                    // Generate email confirmation token
                     var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     if (!string.IsNullOrEmpty(token))
                     {
