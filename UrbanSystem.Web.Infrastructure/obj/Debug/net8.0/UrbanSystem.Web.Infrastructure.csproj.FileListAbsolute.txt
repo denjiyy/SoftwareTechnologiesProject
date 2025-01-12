@@ -1,0 +1,6 @@
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.Infrastructure/obj/Debug/net8.0/UrbanSystem.Web.Infrastructure.csproj.AssemblyReference.cache
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.Infrastructure/obj/Debug/net8.0/UrbanSystem.Web.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.Infrastructure/obj/Debug/net8.0/UrbanSystem.Web.Infrastructure.AssemblyInfoInputs.cache
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.Infrastructure/obj/Debug/net8.0/UrbanSystem.Web.Infrastructure.AssemblyInfo.cs
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.Infrastructure/obj/Debug/net8.0/UrbanSystem.Web.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.Infrastructure/obj/Debug/net8.0/UrbanSystem.Web.Infrastructure.sourcelink.json

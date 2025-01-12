@@ -1,0 +1,5 @@
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.ViewModels/obj/Debug/net8.0/UrbanSystem.Web.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.ViewModels/obj/Debug/net8.0/UrbanSystem.Web.ViewModels.AssemblyInfoInputs.cache
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.ViewModels/obj/Debug/net8.0/UrbanSystem.Web.ViewModels.AssemblyInfo.cs
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.ViewModels/obj/Debug/net8.0/UrbanSystem.Web.ViewModels.csproj.CoreCompileInputs.cache
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.ViewModels/obj/Debug/net8.0/UrbanSystem.Web.ViewModels.sourcelink.json

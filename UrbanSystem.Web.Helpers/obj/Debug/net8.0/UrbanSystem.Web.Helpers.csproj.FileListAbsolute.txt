@@ -1,0 +1,12 @@
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.Helpers/bin/Debug/net8.0/UrbanSystem.Web.Helpers.deps.json
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.Helpers/bin/Debug/net8.0/UrbanSystem.Web.Helpers.dll
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.Helpers/bin/Debug/net8.0/UrbanSystem.Web.Helpers.pdb
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.Helpers/obj/Debug/net8.0/UrbanSystem.Web.Helpers.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.Helpers/obj/Debug/net8.0/UrbanSystem.Web.Helpers.AssemblyInfoInputs.cache
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.Helpers/obj/Debug/net8.0/UrbanSystem.Web.Helpers.AssemblyInfo.cs
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.Helpers/obj/Debug/net8.0/UrbanSystem.Web.Helpers.csproj.CoreCompileInputs.cache
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.Helpers/obj/Debug/net8.0/UrbanSystem.Web.Helpers.sourcelink.json
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.Helpers/obj/Debug/net8.0/UrbanSystem.Web.Helpers.dll
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.Helpers/obj/Debug/net8.0/refint/UrbanSystem.Web.Helpers.dll
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.Helpers/obj/Debug/net8.0/UrbanSystem.Web.Helpers.pdb
+/Users/lyubobalev/Development/Uni/SoftwareTechnologiesProject/UrbanSystem.Web.Helpers/obj/Debug/net8.0/ref/UrbanSystem.Web.Helpers.dll
