@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UrbanSystem.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42be274004ec9ebb35612118f6befd3e2b6c9805")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0383c5c779db1a9e4060ed9377690361738a0df")]
 [assembly: System.Reflection.AssemblyProductAttribute("UrbanSystem.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UrbanSystem.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
